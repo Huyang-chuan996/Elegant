@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My html homework</title>
+    <style>
+        html {
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        * {
+            margin: 0;
+        }
+
+        .header {
+            width: 100%;
+            height: 510px;
+            position: relative;
+            background-image: url("images/bgc.png");
+        }
+
+        .header_flex {
+            width: 900px;
+            height: 50px;
+            position: relative;
+            left: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .box {
+            position: relative;
+            width: 120px;
+            height: 75px;
+        }
+
+        .box~.box3 {
+            background-color: red;
+            width: 220px;
+        }
+
+        .header_title {
+            left: 25%;
+            position: relative;
+            top: 25%;
+        }
+
+        .background1 {
+            position: relative;
+            top: 30px;
+            width: 100%;
+            height: 300px;
+            background-color: #eae7e8;
+        }
+
+        .welcome {
+            left: 20%;
+            top: 10%;
+            width: 800px;
+            height: 350px;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .welcome_img {
+            background-image: url("images/welcome.png");
+            width: 40%;
+            position: relative;
+            top: 20px;
+
+        }
+
+        .background2 {
+            background-color: white;
+            width: 100%;
+            top: 400px;
+
+
+        }
+
+        .welcome_lamy {
+
+            position: relative;
+            width: 250px;
+            height: 40px;
+            left: 60px;
+            top: 50px;
+        }
+
+        .welcome_text {
+            top: 80px;
+            width: 100%;
+            position: relative;
+        }
+
+        .welcome_video {
+            position: absolute;
+            width: 210px;
+            height: 150px;
+            top: 260px;
+            left: 200px;
+        }
+
+        span {
+            font-weight: 800;
+        }
+
+        .seriesBackground {
+            height: 900px;
+            width: 100%;
+
+            position: relative;
+        }
+
+        .LAMYseries {
+            position: relative;
+            width: 100%;
+            left: 650px;
+            top: 230px;
+        }
+
+        .series_flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
+            left: 20px;
+            width: 1100px;
+        }
+
+        .box2 {
+            top: 300px;
+            width: 300px;
+            position: relative;
+            left: 100px;
+        }
+
+        .learnAbout {
+            position: relative;
+            top: 400px;
+            left: 600px;
+        }
+
+        .mainpen {
+            position: relative;
+            top: 300px;
+            height: 300px;
+            width: 100%;
+        }
+
+        .itd {
+            position: relative;
+            width: 100%;
+            top: 700px;
+        }
+
+        .itdtext {
+            position: relative;
+
+            left: 430px;
+        }
+
+        .bottom {
+            position: relative;
+
+            left: 600px;
+        }
+
+        .introduce {
+            position: relative;
+            width: 100%;
+            top: 100px;
+        }
+
+        .itd_flex {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 800px;
+            height: 500px;
+            left: 20%;
+
+        }
+
+        .articalleague {
+            position: relative;
+            left: 400px;
+            top: 20px;
+
+        }
+
+        .purchasebackground {
+            position: relative;
+            top: 100px;
+            left: 550px;
+        }
+
+        .purchase {
+            position: relative;
+            top: 40px;
+            left: 580px
+        }
+
+        .itd_detail {
+            position: relative;
+            top: 310px;
+            width: 100%;
+        }
+
+        .oneof_itd {
+            position: relative;
+            left: 400px;
+            height: 90px;
+
+        }
+
+        .newproduct {
+            position: relative;
+            left: 560px;
+            top: 800px;
+        }
+
+        .viewnewproduct {
+            position: relative;
+            top: 745px;
+            left: 580px;
+        }
+
+        .last {
+            position: relative;
+            top: 2500px;
+            width: 100%;
+        }
+
+        .statement {
+            position: relative;
+            width: 100%;
+            top: 2490px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header_flex">
+            <div class="box" style="color:white; font-size: large;">
+                新品推荐
+            </div>
+            <div class="box" style="color: white; font-size:large;">
+                在线购买产品
+            </div>
+
+            <img class="box box3" src="images/title.png" alt="LAMY_title">
+
+            <div class="box" style="color: white; font-size: large;">
+                企业礼包
+            </div>
+            <div class="box" style="color: white; font-size:large;">
+                品牌介绍
+            </div>
+        </div>
+
+        <img class="header_title" src="images/bgcTitle.png" alt="bgcTitle">
+    </div>
+    <div class="background1">
+        <div class="welcome">
+            <div>
+                <img class="welcome_video" src="images/播放.png">
+            </div>
+            <img src="images/welcome.png" alt="welcome">
+            <div class="background2">
+
+                <div>
+                    <img src="images/Welcome to Lamy.png" alt="welcome_img" class="welcome_lamy">
+                </div>
+                <div class="welcome_text" style="color: black; font-size: large;">
+                    德国书写工具品牌
+                    <span>LAMY</span>
+                    始创人
+                    <span>C·Josef Lamy</span>
+                    于1930年在海德堡创立了欧瑟斯墨水笔制造厂
+                    ，<span>1952</span>
+                    年，崭露头角的
+                    <span>LAMY</span>
+                    流线型墨水笔，震撼问世，彰显公司的创新敏锐触觉。1966年终于打
+                    <br /><br />
+                    造出令人耳目一新的现代经典之作-LAMY 2000系列。产品撮合了聚碳酸酯与不锈钢材质，绝妙的搭配，使之从芸芸众生的书写工具中脱颖而出，时至今日，依然在市场有影响力。
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="seriesBackground">
+        <div class="LAMYseries" style="color: black; font-size: xx-large;">
+            <span>LAMY</span>
+            各系列
+        </div>
+        <div class="series_flex">
+            <div class="box2" style="color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                【恒星系列&nbsp;墨水笔】
+                <br /><br />
+                LAMY 恒星系列延续了 LAMY
+                <br />
+                的时尚造型，打造出锦上添花的极致品质
+                <br />
+                。此系列全部均由氧化
+                <br />
+                独特的凹陷式笔握以及弹性铜线笔夹
+                <br />
+                富的颜色让 LAMY 恒星系列突破了传统
+                <br />
+                散发着无限的青春魅力。
+            </div>
+            <div class="box2" style="color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                【狩猎系列限量色墨水笔】
+                <br /><br />
+                色彩丰富，颜色亮丽，不仅是可以作为书
+                <br />
+                写工具，同样是很好的装饰品
+                <br />
+                宽大的笔夹设计，可随时夹在包带、牛仔裤、
+                <br />
+                T恤袖口上，让您感受创意方便的携带方式
+                <br />
+                笔身通体材质采用车用强力ABS材料
+            </div>
+            <div class="box2" style="color: black;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                【喜悦系列美术笔】
+                <br /><br />
+                用以绘图、写艺术字、艺术签名
+                <br />
+                扁平状的笔尖设计，适合书写艺术字
+                <br />
+                立体感极佳.1、1.5、1.9三种笔尖可供选择
+                <br />
+                ，可书写粗细不等的立体字，让您随时
+                <br />
+                感受变化的乐趣复古笔杆设计
+                <br />
+                经典又与众不同，显示出独特的欣赏品味
+            </div>
+        </div>
+        <div class="learnAbout">
+            <img src="images/learnAbout.png" alt="learnAbout">
+        </div>
+        <div class="mainpen">
+            <img class="mainpen" src="images/mainPen.png" alt="mainPen">
+        </div>
+        <div class="itd">
+            <div>
+
+                <img class="introduce" src="images/introduce.png" alt="itd">
+                <div class="itdtext" style="color: black;">
+                    使用令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种
+                    <br />
+                    材质，也足以成就出这款永恒的设计。产品本身是体现不同加工程序
+                    <br />
+                    和制造工艺。手工打磨的亚光拉丝表面充分体现了品牌对细节的注重
+                </div>
+                <img class="bottom" src="images/bottom.png" alt="bottom">
+
+            </div>
+
+            <img class="articalleague" src="images/Our products.png" alt="ourProduct">
+            <div class="itd_flex">
+                <div class="ourProduct">
+                    <img src="images/left1.png" alt="left1">
+                    <br />
+                    <img src="images/left2.png" alt="left2">
+                </div>
+                <div class="ourProduct">
+                    <img src="images/mid1.png" alt="mid1">
+                    <br />
+                    <img src="images/mid2.png" alt="mid2">
+                </div>
+                <div class="ourProduct">
+                    <img src="images/right1.png" alt="right1">
+                    <br />
+                    <img src="images/right2.png" alt="right2">
+                </div>
+            </div>
+            <div>
+                <img class="purchasebackground" src="images/purchase.png" alt="purchase">
+                <div class="purchase" style="color: white; font-size: xx-large;">
+                    戳我速购
+                </div>
+            </div>
+            <div>
+                <img class="itd_detail" src="images/itd_detail.png" alt="itd_detail">
+                <img class="oneof_itd" src="images/itd1.png" alt="itd1">
+                <br />
+                <img class="oneof_itd" src="images/itd2.png" alt="itd2">
+                <br />
+                <img class="oneof_itd" src="images/itd3.png" alt="itd3">
+            </div>
+        </div>
+        <img class="newproduct" src="images/newproduct.png" alt="newproduct">
+        <div class="viewnewproduct" style="color: white;font-size: xx-large;">
+            查看新品
+        </div>
+    </div>
+    <div>
+        <img class="last" src="images/last.png" alt="last">
+        <img class="statement" src="images/声明.png" alt="声明">
+    </div>
+</body>
+
+</html>
