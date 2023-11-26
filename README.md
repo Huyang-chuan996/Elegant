@@ -1,2 +1,0 @@
-# Elegant
-Hello World!
